@@ -1,7 +1,7 @@
 import subprocess
 from dataclasses import dataclass
 
-from .printing import print
+from rich import print
 
 
 @dataclass
